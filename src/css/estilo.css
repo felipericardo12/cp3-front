@@ -17,7 +17,37 @@ body{
     background: #0B1020;
     font-family: 'Orbitron', sans-serif;
 }
+.loading-text{
+    margin-top: 20px;
 
+    color: #39FF14; /* VERDE */
+    
+    font-size: 18px;
+
+    letter-spacing: 2px;
+
+    text-shadow:
+    0 0 10px #00FF88,
+    0 0 20px #00FF88;
+
+    animation: piscar 1s infinite;
+}
+
+@keyframes piscar{
+
+    0%{
+        opacity: .3;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: .3;
+    }
+
+}
 /* HERO */
 
 #inicio{
