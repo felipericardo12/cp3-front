@@ -14,11 +14,12 @@ Estruturação com HTML
 Estilização avançada com CSS
 Interatividade com JavaScript
 Responsividade
-Design moderno e futurista
+Design moderno 
+
 🎮 Funcionalidades
 
 ✅ Landing page moderna
-✅ Interface gamer futurista
+✅ Interface gamer 
 ✅ Efeitos neon verdes
 ✅ Tela de loading animada
 ✅ Navegação entre páginas
@@ -29,28 +30,33 @@ Design moderno e futurista
 ✅ Interações com JavaScript
 
 🛠️ Tecnologias Utilizadas
-HTML5
-CSS3
+HTML
+CSS
 JavaScript
-📸 Preview
+
+
 🏠 Home
 Tela inicial com loading animado
 Visual gamer neon
 Botões interativos
 Destaque para a marca Aura Games
+
 🎧 Produtos
 Cards estilizados
 Produtos gamers em destaque
 Promoções especiais
 Layout moderno
+
 📖 Sobre
 História da Aura Games
 Missão da empresa
 Design clean futurista
+
 📬 Contato
 Formulário estilizado
 Informações de contato
 Redes sociais
+
 🌐 Deploy
 
 🔗 Aura Games - https://github.com/felipericardo12/cp3-front.git
