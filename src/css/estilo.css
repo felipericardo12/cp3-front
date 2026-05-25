@@ -1,7 +1,7 @@
-root{
+:root{
     --corbg: #0B1020;
-    --corprincipal: #7C3AED;
-    --colorsecundaria: #00D4FF;
+    --corprincipal: #00FF88;
+    --colorsecundaria: #39FF14;
     --branco: #F8FAFC;
     --texto: #94A3B8;
     --corheader: #050812;
@@ -136,7 +136,7 @@ header{
 
     text-shadow:
     0 0 10px rgba(255,255,255,.4),
-    0 0 20px rgba(124,58,237,.5);
+    0 0 20px rgba(0,255,136,.5);
 }
 
 .texto-logo span{
@@ -260,7 +260,7 @@ nav a{
 .card{
     background: rgba(255,255,255,.05);
 
-    border: 1px solid rgba(0,212,255,.2);
+    border: 1px solid rgba(0,255,136,.2);
 
     border-radius: 20px;
 
@@ -281,14 +281,7 @@ nav a{
     transform: translateY(-8px);
 
     box-shadow:
-    0 0 20px rgba(0,212,255,.2);
-}
-
-.card:hover{
-    transform: translateY(-10px);
-
-    box-shadow:
-    0 0 20px rgba(0,212,255,.2);
+    0 0 20px rgba(0,255,136,.2);
 }
 
 .card h3{
@@ -298,6 +291,18 @@ nav a{
 
 .card p{
     color: var(--texto);
+    line-height: 1.7;
+    margin-top: 15px;
+}
+
+.preco{
+    margin-top: auto;
+
+    color: var(--colorsecundaria);
+
+    font-size: 24px;
+
+    font-weight: bold;
 }
 
 /* FORM */
@@ -378,6 +383,7 @@ footer{
     color: white;
     margin-top: 20px;
 }
+
 /* SUBTITULOS */
 
 .subtitulo{
@@ -396,14 +402,6 @@ footer{
     object-fit: contain;
 
     margin-bottom: 25px;
-}
-
-.preco{
-    display: block;
-    margin-top: 20px;
-    color: var(--colorsecundaria);
-    font-size: 22px;
-    font-weight: bold;
 }
 
 /* TABELA */
@@ -443,7 +441,7 @@ footer{
 .sobre-box{
     background: rgba(255,255,255,.03);
 
-    border: 1px solid rgba(0,212,255,.2);
+    border: 1px solid rgba(0,255,136,.2);
 
     padding: 40px;
 
@@ -471,7 +469,7 @@ footer{
 .info-contato{
     background: rgba(255,255,255,.03);
 
-    border: 1px solid rgba(0,212,255,.2);
+    border: 1px solid rgba(0,255,136,.2);
 
     border-radius: 20px;
 
@@ -506,19 +504,4 @@ footer{
         grid-template-columns: 1fr;
     }
 
-}
-.card p{
-    color: var(--texto);
-    line-height: 1.7;
-    margin-top: 15px;
-}
-
-.preco{
-    margin-top: auto;
-
-    color: var(--colorsecundaria);
-
-    font-size: 24px;
-
-    font-weight: bold;
 }
